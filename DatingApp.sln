@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{BC387542-319C-4626-9815-1A0D26A53117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5BD6EE3-CF73-49E4-94A2-AB1BA128C83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp.WebApi", "backend\src\DatingApp.WebApi\DatingApp.WebApi.csproj", "{5391D830-C899-42A0-9CAC-CB491C218C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp.Domain", "backend\src\DatingApp.Domain\DatingApp.Domain.csproj", "{63306C3D-0203-402F-825D-9D7F5D1B9A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp.Application", "backend\src\DatingApp.Application\DatingApp.Application.csproj", "{B66D2D57-2D71-43C9-891B-D6C3CBFFE932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp.Infrastructure", "backend\src\DatingApp.Infrastructure\DatingApp.Infrastructure.csproj", "{DF8B612E-7E3A-4CC0-A573-E13304763A7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5391D830-C899-42A0-9CAC-CB491C218C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5391D830-C899-42A0-9CAC-CB491C218C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5391D830-C899-42A0-9CAC-CB491C218C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5391D830-C899-42A0-9CAC-CB491C218C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63306C3D-0203-402F-825D-9D7F5D1B9A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63306C3D-0203-402F-825D-9D7F5D1B9A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63306C3D-0203-402F-825D-9D7F5D1B9A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63306C3D-0203-402F-825D-9D7F5D1B9A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66D2D57-2D71-43C9-891B-D6C3CBFFE932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66D2D57-2D71-43C9-891B-D6C3CBFFE932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66D2D57-2D71-43C9-891B-D6C3CBFFE932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66D2D57-2D71-43C9-891B-D6C3CBFFE932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8B612E-7E3A-4CC0-A573-E13304763A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8B612E-7E3A-4CC0-A573-E13304763A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8B612E-7E3A-4CC0-A573-E13304763A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8B612E-7E3A-4CC0-A573-E13304763A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5BD6EE3-CF73-49E4-94A2-AB1BA128C83B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5391D830-C899-42A0-9CAC-CB491C218C6F} = {B5BD6EE3-CF73-49E4-94A2-AB1BA128C83B}
+		{63306C3D-0203-402F-825D-9D7F5D1B9A48} = {B5BD6EE3-CF73-49E4-94A2-AB1BA128C83B}
+		{B66D2D57-2D71-43C9-891B-D6C3CBFFE932} = {B5BD6EE3-CF73-49E4-94A2-AB1BA128C83B}
+		{DF8B612E-7E3A-4CC0-A573-E13304763A7C} = {B5BD6EE3-CF73-49E4-94A2-AB1BA128C83B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF15CCC-96A7-4E94-9732-6A520B6A8098}
+	EndGlobalSection
+EndGlobal
